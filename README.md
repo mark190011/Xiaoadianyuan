@@ -9,4 +9,5 @@ An autonomous reply and activity system developed based on wxauto. 基于 wxauto
 ## 功能介绍
 
 - 管理员设置/AdminAgent
-![Image text](https://github.com/mark190011/Xiaoadianyuan/blob/main/img_folder/AdminAgent.jpg)![Image text](https://github.com/mark190011/Xiaoadianyuan/blob/main/img_folder/HelpAgent.jpg)
+![AdminAgent](https://github.com/mark190011/Xiaoadianyuan/blob/main/img_folder/AdminAgent.jpg?raw=true){:width="300px"}
+![Image text](https://github.com/mark190011/Xiaoadianyuan/blob/main/img_folder/HelpAgent.jpg)
