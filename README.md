@@ -139,5 +139,7 @@ For other versions, more features, and detailed usage instructions, please visit
 代码仅用于技术的交流学习使用，请勿用于非法用途和商业用途！如因此产生任何法律纠纷，均与作者无关！   
 The code is provided solely for technical exchange and learning purposes. Please refrain from using it for any illegal or commercial activities. The author shall not be held liable for any legal disputes arising from such usage.
 
-### 
+### 证书 License
+
+[MIT LICENSE](LICENSE)
 
