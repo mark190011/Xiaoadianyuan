@@ -105,10 +105,12 @@ sqlite3:https://www.sqlite.org/download.html
 - 活动运营/HolidayOP
 
 <img src="https://github.com/mark190011/Xiaoadianyuan/blob/main/img_folder/HolidayOP.jpg" width="300">
- 自动生成活动方案，自动生成活动海报，按照日期自动执行    It can automatically generate activity plans, create activity posters, and execute them automatically according to the scheduled dates.
+
+ 自动生成活动方案，自动生成活动海报，按照日期自动执行    
+ It can automatically generate activity plans, create activity posters, and execute them automatically according to the scheduled dates.
 
 ### 项目架构
-![Image text](https://github.com/mark190011/Xiaoadianyuan/blob/main/prog_structure.png)
+![Image text](https://github.com/mark190011/Xiaoadianyuan/blob/main/img_folder/prog_structure.png)
 
 ## 其它
 
