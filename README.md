@@ -32,7 +32,6 @@ main:.
 │  requirements.txt
 │  xiaoadianyuan.ico
 ```
-
 ## 开始
 ***请使用vx3.9.12
 
@@ -45,15 +44,27 @@ python > 3.10
 #建议使用国内镜像，最近通用库很慢
 
 ### 设置管理员码
-powershell
+```powershell
  sqlite3 random_number.db "INSERT INTO random_number_set (value) VALUES ('****');"
-#其中"****"为开发者设置的4位管理员码
+```
+#其中"****"为开发者设置的4位管理员码 
+#Here, "****" represents a 4-digit administrator code set by the developer.
 
 sqlite3:https://www.sqlite.org/download.html
+
+### 设置你要监控的群
+```powershell
+ sqlite3 random_number.db "INSERT INTO group_name (group_name) VALUES ('****');"
+```
+#其中"****"为你在群设置中, 复制的"群聊名称”,  包括vx群名内的表情包，特殊字符等
+#Here, "****" refers to the "group chat name" that you have copied from the group settings, including emojis, special characters, etc., within the vx group name.
+
 ### 启动bot
-powershell
+```powershell
  python start_schedule.py
+```
 #第一次启动会自动获得token
+#A token will be automatically obtained upon the first launch.
 
 ## 功能介绍
 
@@ -90,4 +101,15 @@ powershell
 
 ### 项目架构
 ![Image text](https://github.com/mark190011/Xiaoadianyuan/blob/main/prog_structure.png)
+
+### 其它
+
+## 交流
+欢迎大家提出建议和改进意见：mark@hotblaz.com
+
+## API/MCP
+更多功能和调用详情，请登录https://www.hotblaz.com
+
+## 免责声明
+代码仅用于技术的交流学习使用，请勿用于非法用途和商业用途！如因此产生任何法律纠纷，均与作者无关！
 
