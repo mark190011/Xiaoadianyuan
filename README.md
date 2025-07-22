@@ -1,10 +1,10 @@
 # Xiaoadianyuan 小a店员
 ## 前言 Introduction
-<span style="color: blue;">基于wxauto开发的 ，应用UIAutoanimation, Context上下文工程和逻辑链的自主vx回复和活动系统Agent.</span>    
-<span style="color: blue;">An agent system developed based on wxauto, which applies UIAutoanimation, utilizes Context engineering, and implements logical chains for autonomous vx reply functionality and activity systems.</span> 
+> 基于wxauto开发的 ，应用UIAutoanimation, Context上下文工程和逻辑链的自主vx回复和活动系统Agent.  
+> An agent system developed based on wxauto, which applies UIAutoanimation, utilizes Context engineering, and implements logical chains for autonomous vx reply functionality and activity systems.
 
-<span style="color: blue;">主要服务于餐饮创业者及其它线下/线上店铺场景。</span>     
-<span style="color: blue;">Xiaoadianyuan mainly serves catering entrepreneurs and other offline/online store scenarios.</span> 
+> 主要服务于餐饮创业者及其它线下/线上店铺场景。   
+> Xiaoadianyuan mainly serves catering entrepreneurs and other offline/online store scenarios.
 
 ### 文件结构 File Structure
 ```
