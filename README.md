@@ -1,10 +1,10 @@
 # Xiaoadianyuan 小a店员
 ## 前言 Introduction
-<span style="color: blue;">基于wxauto开发的 ，应用UIAutoanimation, Context上下文工程和逻辑链的自主vx回复和活动系统Agent.    
-<span style="color: blue;">An agent system developed based on wxauto, which applies UIAutoanimation, utilizes Context engineering, and implements logical chains for autonomous vx reply functionality and activity systems.
+<span style="color: blue;">基于wxauto开发的 ，应用UIAutoanimation, Context上下文工程和逻辑链的自主vx回复和活动系统Agent.</span>    
+<span style="color: blue;">An agent system developed based on wxauto, which applies UIAutoanimation, utilizes Context engineering, and implements logical chains for autonomous vx reply functionality and activity systems.</span> 
 
-<span style="color: blue;">主要服务于餐饮创业者及其它线下/线上店铺场景。    
-<span style="color: blue;">Xiaoadianyuan mainly serves catering entrepreneurs and other offline/online store scenarios.
+<span style="color: blue;">主要服务于餐饮创业者及其它线下/线上店铺场景。</span>     
+<span style="color: blue;">Xiaoadianyuan mainly serves catering entrepreneurs and other offline/online store scenarios.</span> 
 
 ### 文件结构 File Structure
 ```
@@ -33,8 +33,8 @@ main:.
 │  xiaoadianyuan.ico
 ```
 ## 开始 Start
-***请使用vx3.9.12\n
-***wxauto内部分功能已修改，请勿使用原生wxauto包替换本项目内文件\n
+***请使用vx3.9.12   
+***wxauto内部分功能已修改，请勿使用原生wxauto包替换本项目内文件   
 ***Some internal functions of wxauto have been modified. Please do not replace the files in this project with the original wxauto package.
 ### 安装依赖 Prerequisites
 python > 3.10
@@ -130,13 +130,13 @@ print(group_result)
 ## 其它 Other
 
 ### 交流 Community
-欢迎大家提出建议和改进意见：mark@hotblaz.com\n
+欢迎大家提出建议和改进意见：mark@hotblaz.com   
 We welcome your suggestions and ideas for improvement. Please feel free to contact us at mark@hotblaz.com.
 ### API/MCP
-其它版本，更多功能和调用详情，请登录https://www.hotblaz.com\n
+其它版本，更多功能和调用详情，请登录https://www.hotblaz.com   
 For other versions, more features, and detailed usage instructions, please visit https://www.hotblaz.com.
 ### 免责声明 Disclaimer
-代码仅用于技术的交流学习使用，请勿用于非法用途和商业用途！如因此产生任何法律纠纷，均与作者无关！\n
+代码仅用于技术的交流学习使用，请勿用于非法用途和商业用途！如因此产生任何法律纠纷，均与作者无关！   
 The code is provided solely for technical exchange and learning purposes. Please refrain from using it for any illegal or commercial activities. The author shall not be held liable for any legal disputes arising from such usage.
 
 ### 
