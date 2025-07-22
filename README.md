@@ -7,6 +7,7 @@ An agent system developed based on wxauto, which applies UIAutoanimation, utiliz
 Xiaoadianyuan mainly serves catering entrepreneurs and other offline/online store scenarios.
 
 ### 文件架构
+```
 main:.
 ├─apache-maven-3.9.9
 ├─flask_session
@@ -30,6 +31,7 @@ main:.
 │  README.md
 │  requirements.txt
 │  xiaoadianyuan.ico
+```
 
 ## 开始
 ***请使用vx3.9.12
@@ -37,9 +39,9 @@ main:.
 ### 安装依赖
 python > 3.10
 
-powershell
+```powershell
  pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-
+```
 #建议使用国内镜像，最近通用库很慢
 
 ### 设置管理员码
