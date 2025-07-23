@@ -27,10 +27,7 @@ def get_admin():
         query = "SELECT admin_name FROM random_number ORDER BY rowid DESC LIMIT 1"
         cursor.execute(query)
         result = cursor.fetchone()
-
-        # 关闭数据库连接
         conn.close()
-
         if result:
             return result[0]
         else:
@@ -50,15 +47,12 @@ def schedule_weekly_holidays():
     
     # 添加每周五 17:30 执行 sever_bot.stop_setup_mode() 的任务
     schedule.every().friday.at("17:30").do(sever_bot.stop_setup_mode)
-    
-    # 移除原有的阻塞逻辑
-    
+        
 # 在独立线程中运行调度任务
 def run_scheduler():
     while True:
         schedule.run_pending()
         time.sleep(1)
-
 # 启动调度线程
 if __name__ == "__main__":
     schedule_weekly_holidays()
