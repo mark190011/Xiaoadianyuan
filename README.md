@@ -133,8 +133,8 @@ print(group_result)
 欢迎大家提出建议和改进意见：mark@hotblaz.com   
 We welcome your suggestions and ideas for improvement. Please feel free to contact us at mark@hotblaz.com.
 ### API/MCP
-其它版本，更多功能和调用详情，请登录[https://www.hotblaz.com](https://c191evo3qj.apifox.cn/328099878e0)   
-For other versions, more features, and detailed usage instructions, please visit [https://www.hotblaz.com](https://c191evo3qj.apifox.cn/328099878e0).
+其它版本，更多功能和调用详情，请登录https://c191evo3qj.apifox.cn/328099878e0 
+For other versions, more features, and detailed usage instructions, please visit https://c191evo3qj.apifox.cn/328099878e0.
 ### 免责声明 Disclaimer
 代码仅用于技术的交流学习使用，请勿用于非法用途和商业用途！如因此产生任何法律纠纷，均与作者无关！   
 The code is provided solely for technical exchange and learning purposes. Please refrain from using it for any illegal or commercial activities. The author shall not be held liable for any legal disputes arising from such usage.
