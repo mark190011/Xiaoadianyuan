@@ -1,5 +1,5 @@
 
-# 监听机器人
+# 监听机器人，除了这个，其它全留给服务器的bot
 from wxauto import WeChat
 
 # 标准库
@@ -23,7 +23,7 @@ import concurrent.futures
 from sever_bot import sever_bot
 
 #start_schedule.start_schedules()
-################环境变量除了监听机器人############################
+################环境变量除了监听机器人，都留给服务器Bot,如果需要调整的话，后边再调整############################
 wx = WeChat()
 ######################函数定义全部给服务器bot################################################
 
@@ -81,7 +81,9 @@ def show_mask():
     except Exception as e:
         print(f'创建遮罩层时发生错误: {e}')
 
-def get_random_number_token():        
+def get_random_number_token():
+        # 这里实现获取最新随机值的逻辑
+        # 示例代码，需要根据实际情况修改
         try:
             conn = sqlite3.connect('random_number.db')
             cursor = conn.cursor()
@@ -99,10 +101,31 @@ def get_random_number_token():
                 conn.close()
 
 def get_random_number():
+        # 这里实现获取最新随机值的逻辑
+        # 示例代码，需要根据实际情况修改
         try:
             conn = sqlite3.connect('random_number.db')
             cursor = conn.cursor()
             cursor.execute('SELECT value FROM random_number_set ORDER BY id DESC LIMIT 1')
+            result = cursor.fetchone()
+            if result:
+                return str(result[0])  # 确保返回的是字符串类型
+            else:
+                return "default_token"  # 如果没有记录，返回一个默认token
+        except Exception as e:
+            print(f"数据库查询出错: {e}")
+            return "default_token"  # 出错时返回默认token
+        finally:
+            if conn:
+                conn.close()
+
+def get_group_nickname():
+        # 这里实现获取最新随机值的逻辑
+        # 示例代码，需要根据实际情况修改
+        try:
+            conn = sqlite3.connect('random_number.db')
+            cursor = conn.cursor()
+            cursor.execute('SELECT nickname FROM group_nickname ORDER BY id DESC LIMIT 1')
             result = cursor.fetchone()
             if result:
                 return str(result[0])  # 确保返回的是字符串类型
@@ -516,8 +539,9 @@ def start_bot():
                             # print(latest_from_user_name)
                             # holidayresult = "今天活动获奖者：" + nickname
 
-                    if not is_in_holiday_mode:                   
-                        if "@小a店员" in content:
+                    if not is_in_holiday_mode: 
+                        group_nickname = get_group_nickname()                  
+                        if f"@{group_nickname}" in content:
                             if not should_skip_else:
                                 re_result, last_with_order = sever_bot.customer_agent(content, sender)
                                 reply_content = re_result

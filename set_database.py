@@ -42,3 +42,24 @@ def set_groupname(groupname):
     finally:
         if conn:
             conn.close()
+
+def set_group_nickname(nickname):
+    conn = None 
+    try:
+        db_path = os.path.abspath('random_number.db')
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+        
+        cursor.execute('INSERT INTO group_nickname (nickname) VALUES (?)', (nickname,))
+        conn.commit()  # 提交事务
+
+        return f"已修改群内机器人昵称为：{nickname}"
+        
+    except Exception as e:
+        print(f"数据库操作出错: {e}")
+        if conn:
+            conn.rollback()  # 出错时回滚
+        return f"群名设置失败: {str(e)}"
+    finally:
+        if conn:
+            conn.close()

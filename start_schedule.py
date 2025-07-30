@@ -11,6 +11,7 @@ def start_schedules():
     scripts = [
         {"name": "operation_module.py", "count": 1},
         {"name": "holiday_module.py", "count": 1},
+        {"name": "Turn_Screen.py", "count": 1},
         {"name": "bot_start.py", "count": 1}
     ]
 
