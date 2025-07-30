@@ -27,6 +27,7 @@ main:.
 │  operation_module.py
 │  set_database.py
 │  config_set.py
+│  Turn_Screen.py
 │  random_number.db
 │  README.md
 │  requirements.txt
@@ -150,7 +151,9 @@ print(nickname_result)
 >图片运营 Visual Content Management    
 >节日活动运营 Holiday Event Operations    
 
-- 2025/7/30 防熄屏功能更新 July 30, 2025 – Keep-Screen-On Function Enhancement
+- 2025/7/30 功能更新 July 30, 2025 – Function Enhancement
+>增加防止熄屏功能 Enable Keep-Screen-On Functionality        
+>用户可设置群内Bot昵称 Allow Users to Set Bot Names Within Groups    
 
 ### 交流 Community
 欢迎大家提出建议和改进意见：mark@hotblaz.com   
