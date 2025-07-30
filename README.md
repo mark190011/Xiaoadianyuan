@@ -130,14 +130,18 @@ print(group_result)
 ## 🏠其它 Other
 
 ### 版本记录 Release Notes
-- 2025/7/22 基础版本发布
-- July 22, 2025 – Base Version Released
->用户回复 User Reply
->管理员设置 Administrator Settings
->菜单识别/图片描述 Menu Recognition / Image Description
+- 2025/7/22 基础版本发布 July 22, 2025 – Base Version Released
+>用户回复 User Reply    
+>管理员设置 Administrator Settings    
+>菜单识别/图片描述 Menu Recognition / Image Description    
 >群保护 Group Protection
 
+- 2025/7/23 活动运营模块更新 July 23, 2025 – Update to the Activity Operations Module
+>每日热点话题 Daily Hot Topics
+>图片运营 Visual Content Management
+>节日活动运营 Holiday Event Operations
 
+- 2025/7/30 防熄屏功能更新 July 30, 2025 – Keep-Screen-On Function Enhancement
 
 ### 交流 Community
 欢迎大家提出建议和改进意见：mark@hotblaz.com   
