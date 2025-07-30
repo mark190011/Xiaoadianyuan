@@ -129,6 +129,16 @@ print(group_result)
 
 ## 🏠其它 Other
 
+### 版本记录 Release Notes
+- 2025/7/22 基础版本发布
+- July 22, 2025 – Base Version Released
+>用户回复 User Reply
+>管理员设置 Administrator Settings
+>菜单识别/图片描述 Menu Recognition / Image Description
+>群保护 Group Protection
+
+
+
 ### 交流 Community
 欢迎大家提出建议和改进意见：mark@hotblaz.com   
 We welcome your suggestions and ideas for improvement. Please feel free to contact us at mark@hotblaz.com.
